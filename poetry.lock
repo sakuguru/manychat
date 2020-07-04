@@ -1,0 +1,29 @@
+[[package]]
+category = "main"
+description = "Python code generation tool."
+name = "literal"
+optional = false
+python-versions = "*"
+version = "1.0.0"
+
+[[package]]
+category = "main"
+description = "Backported and Experimental Type Hints for Python 3.5+"
+name = "typing-extensions"
+optional = false
+python-versions = "*"
+version = "3.7.4.2"
+
+[metadata]
+content-hash = "756848b004a16b79355381f8e30888706802dbf71e4676fac1e288523d4c2b99"
+python-versions = "^3.7"
+
+[metadata.files]
+literal = [
+    {file = "literal-1.0.0.tar.gz", hash = "sha256:68e5502d66eb8ccb46159235441dd0b65bcd5ab2ac57075101860c35d1b7208d"},
+]
+typing-extensions = [
+    {file = "typing_extensions-3.7.4.2-py2-none-any.whl", hash = "sha256:f8d2bd89d25bc39dabe7d23df520442fa1d8969b82544370e03d88b5a591c392"},
+    {file = "typing_extensions-3.7.4.2-py3-none-any.whl", hash = "sha256:6e95524d8a547a91e08f404ae485bbb71962de46967e1b71a0cb89af24e761c5"},
+    {file = "typing_extensions-3.7.4.2.tar.gz", hash = "sha256:79ee589a3caca649a9bfd2a8de4709837400dfa00b6cc81962a1e6a1815969ae"},
+]
